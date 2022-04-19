@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Prompts from './components/Prompts';
+import Timer from './components/Timer';
+import Dosage from './components/Dosage';
+import StartButton from './components/StartButton';
+import Water from './components/Water';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div>
+    <Header />
+    <Prompts />
+    <Timer />
+    <Dosage />
+    <StartButton />
+    <Water />
+    <Navbar />
+  </div>
+    );
 }
 
 export default App;
