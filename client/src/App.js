@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from './components/Header';
 import Prompts from './components/Prompts';
 import Timer from './components/Timer';
@@ -11,11 +11,15 @@ function App() {
   return (
   <div>
     <Header />
-    <Prompts />
-    <Timer />
-    <Dosage />
-    <StartButton />
-    <Water />
+    <div className='instructions'>
+      <Prompts />
+      <Timer />
+    </div>
+    <div className='controls'>
+      <Dosage />
+      <StartButton />
+      <Water />
+    </div>
     <Navbar />
   </div>
     );
