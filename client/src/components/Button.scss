@@ -5,20 +5,23 @@
   display: flex;
   justify-content: center;
   width: 125px;
-  height: 30px;
+  height: 60px;
   background-color: #FA9A0B;
   font-weight: bold;
   align-items: center;
+  margin: auto;
 }
 
 .nav-button {
   display: flex;
   border-color: black;
   border-style: solid;
+  border-radius: 10px;
   background-color: #FA9A0B;
   width: 125px;
   height: 60px;
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  margin: 0.15em;
 }
