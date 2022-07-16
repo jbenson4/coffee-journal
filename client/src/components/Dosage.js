@@ -1,10 +1,11 @@
 import React from "react";
 import './Dosage.scss';
+import { ReactComponent as Bean } from './images/bean.svg';
 
 const Dosage = () => {
   return (
     <div className="coffee-control">
-      <div>Coffee Icon</div>
+      <Bean className="bean" />
       <div className="coffee-weight">20g</div>
     </div>
   )
