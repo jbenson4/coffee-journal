@@ -6,6 +6,8 @@ import Dosage from './components/Dosage';
 import StartButton from './components/StartButton';
 import Water from './components/Water';
 import Navbar from './components/Navbar';
+import { ReactComponent as Brewer } from './components/images/brewer.svg';
+
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
     <div className='instructions'>
       <Prompts />
       <Timer />
+    </div>
+    <div className='brewer'>
+      <Brewer />
     </div>
     <div className='controls'>
       <Dosage />
